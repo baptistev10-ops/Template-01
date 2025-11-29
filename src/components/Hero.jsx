@@ -24,13 +24,13 @@ export default function Hero() {
               href="#contact"
               className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded font-bold transition-all shadow-lg shadow-indigo-500/30 hover:-translate-y-1"
             >
-              ACTION PRIMAIRE
+              {aboutSection.homeButton.button1}
             </a>
             <a
               href="#portfolio"
               className="bg-transparent border-2 border-gray-700 text-gray-300 hover:border-indigo-500 hover:text-indigo-400 px-8 py-4 rounded font-bold transition-all"
             >
-              ACTION SECONDAIRE
+              {aboutSection.homeButton.button2}
             </a>
           </div>
         </div>

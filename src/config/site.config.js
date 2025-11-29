@@ -9,6 +9,8 @@ export const aboutSection = {
   // Paragraphe déscription
   homeDescription:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+
+  homeButton: { button1: "ACTION PRIMAIRE", button2: "ACTION SECONDAIRE" },
 };
 
 // Contact
