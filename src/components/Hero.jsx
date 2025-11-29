@@ -40,7 +40,7 @@ export default function Hero() {
           className="hidden md:block aspect-square bg-gray-800 rounded-3xl border-4 border-gray-800 shadow-2xl shadow-indigo-900/20 relative overflow-hidden"
         >
           <div className="absolute inset-0 bg-linear-to-tr from-gray-900 to-indigo-900/40 flex items-center justify-center text-gray-600 font-black text-4xl text-center p-4">
-            IMAGE
+            IMAGE / VISUAL
           </div>
         </div>
       </div>
