@@ -21,7 +21,7 @@ export default function Contact() {
                         `mailto:${labelContact.mail}`) ||
                       (labelContact.mode === "phone" &&
                         `tel:${labelContact.phone}`) ||
-                      (labelContact.mode === "lien" && labelContact.lien) ||
+                      (labelContact.mode === "lien" && labelContact.link) ||
                       (labelContact.mode === "" && "")
                     }
                     target={labelContact.targetBlank === true ? "_blank" : ""}

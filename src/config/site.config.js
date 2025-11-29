@@ -1,4 +1,15 @@
 // About
+export const aboutSection = {
+  // Titres de l'écran d'accueil
+  homeTitle: {
+    firstTitle: "TITRE PRINCIPAL",
+    secondTitle: "ACCROCHEUR ICI",
+  },
+
+  // Paragraphe déscription
+  homeDescription:
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
+};
 
 // Contact
 // Titre
@@ -8,7 +19,8 @@ export const titleContact = {
 
 // Importer l'adresse de votre entreprise
 export const googleMaps = {
-  googleMaps: { address: "24 rue Emile Basly, 62149 Cuinchy" },
+  googleMaps: { address: "Paris" },
+  // Exemple "75 rue du Plouich, 59259 Aubers"
 };
 
 // Ajouter des infos
@@ -22,7 +34,7 @@ export const labelContacts = [
     mode: "lien",
     mail: "",
     phone: "",
-    lien: "https://effervescent-pithivier-a313e9.netlify.app/",
+    link: "https://effervescent-pithivier-a313e9.netlify.app/",
     // Mettre à true si le lien doit s'ouvrir dans une nouvelle page
     targetBlank: true,
   },
@@ -33,7 +45,7 @@ export const labelContacts = [
     mode: "phone",
     mail: "",
     phone: "0781705561",
-    lien: "",
+    link: "",
     targetBlank: false,
   },
   {
@@ -43,7 +55,7 @@ export const labelContacts = [
     mode: "mail",
     mail: "",
     phone: "",
-    lien: "contact@email.com",
+    link: "contact@email.com",
     targetBlank: false,
   },
 ];
@@ -52,8 +64,3 @@ export const infosPiedDePage = {
   // Renseigner le nom de l'entreprise
   nomEntreprise: { label: "NOM DE L'ENTREPRISE" },
 };
-
-export const VALID_LICENSES = [
-  "A9F2-ZK1B-H72S-PLQ8",
-  "E4A9-8B3F-FD19-29C1-774A",
-];
