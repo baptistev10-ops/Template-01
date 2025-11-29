@@ -49,5 +49,11 @@ export const labelContacts = [
 ];
 
 export const infosPiedDePage = {
+  // Renseigner le nom de l'entreprise
   nomEntreprise: { label: "NOM DE L'ENTREPRISE" },
 };
+
+export const VALID_LICENSES = [
+  "A9F2-ZK1B-H72S-PLQ8",
+  "E4A9-8B3F-FD19-29C1-774A",
+];
